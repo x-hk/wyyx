@@ -1,0 +1,90 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarBackgroundColor": "#333",
+				  "navigationBarTitleText": "我的",
+				  "navigationBarTextStyle": "white",
+				  "backgroundColor": "#f4f4f4"
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {}
+		},
+		{
+			"path": "pages/shopcar/shopcar",
+			"style": {}
+		}, {
+			"path": "pages/search/search",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/topic/topic",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/topicDetail/topicDetail",
+            "style" : {}
+        }
+		,{
+            "path" : "pages/goods/goods",
+            "style" : {}
+        }
+		
+        ,{
+            "path" : "pages/favorite/favorite",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿网易严选",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundTextStyle": "dark",
+		"backgroundColor": "#FFFFFF",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/icon/home-icon.png",
+				"selectedIconPath": "static/image/icon/home-selectIcon.png"
+			},
+			{
+				"pagePath": "pages/topic/topic",
+				"text": "专题",
+				"iconPath": "static/image/icon/topic.png",
+				"selectedIconPath": "static/image/icon/topic-selectIcon.png"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"iconPath": "static/image/icon/fen-icon.png",
+				"text": "分类",
+				"selectedIconPath": "static/image/icon/fen-selectIcon.png"
+			},
+			{
+				"pagePath": "pages/shopcar/shopcar",
+				"text": "购物车",
+				"iconPath": "static/image/icon/shop-car.png",
+				"selectedIconPath": "static/image/icon/shop-car-selectLcon.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/image/icon/user-icon.png",
+				"selectedIconPath": "static/image/icon/user-selectIcon.png"
+			}
+		]
+	}
+}

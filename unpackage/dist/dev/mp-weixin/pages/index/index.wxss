@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-57280228 {
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #f4f4f4;
+}
+.search.data-v-57280228 {
+  height: 88rpx;
+  width: 100%;
+  padding: 0 30rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.search .input.data-v-57280228 {
+  width: 690rpx;
+  height: 56rpx;
+  background: #ededed;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.search .input .icon.data-v-57280228 {
+  background-size: 100%;
+  width: 28rpx;
+  height: 28rpx;
+}
+.search .input .txt.data-v-57280228 {
+  height: 42rpx;
+  line-height: 42rpx;
+  color: #666;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+}
+.m-menu.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 181rpx;
+  width: 750rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.m-menu .item.data-v-57280228 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: block;
+  padding: 20rpx 0;
+}
+.m-menu .item image.data-v-57280228 {
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  margin: 0 auto;
+  margin-bottom: 12rpx;
+}
+.m-menu .item text.data-v-57280228 {
+  display: block;
+  font-size: 24rpx;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1;
+  color: #333;
+}
+.new.data-v-57280228 {
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.new .title.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 130rpx;
+}
+.new .title .txt.data-v-57280228 {
+  padding-right: 30rpx;
+  background: url(http://ac-3yr0g9cz.clouddn.com/2cdba05….png) right 4rpx no-repeat;
+  background-size: 16.656rpx 27rpx;
+  display: inline-block;
+  height: 36rpx;
+  font-size: 33rpx;
+  line-height: 36rpx;
+}
+.content.data-v-57280228 {
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  padding: 0 31rpx 45rpx 31rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.content .item.data-v-57280228 {
+  float: left;
+  width: 302rpx;
+  margin-top: 10rpx;
+  margin-left: 21rpx;
+  margin-right: 21rpx;
+}
+.content .item .img.data-v-57280228 {
+  width: 302rpx;
+  height: 302rpx;
+  background: #f8f8f8;
+}
+.content .item .name.data-v-57280228 {
+  text-align: center;
+  display: block;
+  width: 302rpx;
+  height: 35rpx;
+  padding: 14rpx;
+  overflow: hidden;
+  font-size: 30rpx;
+  color: #333;
+}
+.content .item .price.data-v-57280228 {
+  display: block;
+  text-align: center;
+  line-height: 30rpx;
+  font-size: 30rpx;
+  color: #b4282d;
+}
+.features.data-v-57280228 {
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.features .title.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 130rpx;
+}
+.features .title .txt.data-v-57280228 {
+  padding-right: 30rpx;
+  background: url(http://ac-3yr0g9cz.clouddn.com/2cdba05….png) right 4rpx no-repeat;
+  background-size: 16.656rpx 27rpx;
+  display: inline-block;
+  height: 36rpx;
+  font-size: 33rpx;
+  line-height: 36rpx;
+}
+.features .features-list.data-v-57280228 {
+  padding: 0 0 48rpx 0;
+}
+.features .features-list .list.data-v-57280228 {
+  height: 533rpx;
+  width: 750rpx;
+  white-space: nowrap;
+}
+.features .features-list .list .item.data-v-57280228 {
+  display: inline-block;
+  height: 533rpx;
+  width: 680.5rpx;
+  margin-left: 30rpx;
+  overflow: hidden;
+}
+.features .features-list .list .item .img.data-v-57280228 {
+  height: 387.5rpx;
+  width: 680.5rpx;
+  margin-bottom: 30rpx;
+}
+.features .features-list .list .item .np.data-v-57280228 {
+  height: 35rpx;
+  margin-bottom: 13.5rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+.features .features-list .list .item .np .name.data-v-57280228 {
+  font-size: 29rpx;
+  color: #333;
+}
+.features .features-list .list .item .np .price.data-v-57280228 {
+  margin-left: 20.8rpx;
+  color: #b4282d;
+}
+.features .features-list .list .item .desc.data-v-57280228 {
+  display: block;
+  height: 50rpx;
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.atHome.data-v-57280228,
+.kitchen.data-v-57280228,
+.clothes.data-v-57280228,
+.baby.data-v-57280228,
+.groceries.data-v-57280228,
+.wash.data-v-57280228,
+.interest.data-v-57280228,
+.diets.data-v-57280228,
+.fittings.data-v-57280228 {
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.atHome .title.data-v-57280228,
+.kitchen .title.data-v-57280228,
+.clothes .title.data-v-57280228,
+.baby .title.data-v-57280228,
+.groceries .title.data-v-57280228,
+.wash .title.data-v-57280228,
+.interest .title.data-v-57280228,
+.diets .title.data-v-57280228,
+.fittings .title.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 130rpx;
+}
+.atHome .title .txt.data-v-57280228,
+.kitchen .title .txt.data-v-57280228,
+.clothes .title .txt.data-v-57280228,
+.baby .title .txt.data-v-57280228,
+.groceries .title .txt.data-v-57280228,
+.wash .title .txt.data-v-57280228,
+.interest .title .txt.data-v-57280228,
+.diets .title .txt.data-v-57280228,
+.fittings .title .txt.data-v-57280228 {
+  padding-right: 30rpx;
+  background: url(http://ac-3yr0g9cz.clouddn.com/2cdba05….png) right 4rpx no-repeat;
+  background-size: 16.656rpx 27rpx;
+  display: inline-block;
+  height: 36rpx;
+  font-size: 33rpx;
+  line-height: 36rpx;
+}
+

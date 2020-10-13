@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/classification/classification",
+    "pages/shopcar/shopcar",
+    "pages/search/search",
+    "pages/topic/topic",
+    "pages/category/category",
+    "pages/topicDetail/topicDetail",
+    "pages/goods/goods"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "网难松选",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#FFFFFF",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/image/icon/home-icon.png",
+        "selectedIconPath": "static/image/icon/home-selectIcon.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "专题",
+        "iconPath": "static/image/icon/topic.png",
+        "selectedIconPath": "static/image/icon/topic-selectIcon.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "static/image/icon/fen-icon.png",
+        "text": "分类",
+        "selectedIconPath": "static/image/icon/fen-selectIcon.png"
+      },
+      {
+        "pagePath": "pages/shopcar/shopcar",
+        "text": "购物车",
+        "iconPath": "static/image/icon/shop-car.png",
+        "selectedIconPath": "static/image/icon/shop-car-selectLcon.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/image/icon/user-icon.png",
+        "selectedIconPath": "static/image/icon/user-selectIcon.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap62.json"
+}

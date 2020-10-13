@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;;;;;;;;;;;;kDAAA;AACA;AACA,gI;AACAA,UAAU,CAACC,0BAAD,CAAV,C","file":"pages/calssificationNav/calssificationNav.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/calssificationNav/calssificationNav.vue'\ncreatePage(Page)"],"sourceRoot":""}
